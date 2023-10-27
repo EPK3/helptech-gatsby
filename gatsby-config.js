@@ -4,12 +4,12 @@
 module.exports = {
   siteMetadata: {
     title: `HelpTech`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `http://helptech.local/`
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "wordpress url"
+      "url": "http://helptech.local/graphql"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss", "gatsby-plugin-sitemap"]
 };
@@ -19,12 +19,12 @@ module.exports = {
 module.exports = {
   siteMetadata: {
     title: `HelpTech`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `http://helptech.local/`
   },
   plugins: [{
     resolve: 'gatsby-source-wordpress',
     options: {
-      "url": "wordpress url"
+      "url": "http://helptech.local/graphql"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss", "gatsby-plugin-sitemap"]
 };
