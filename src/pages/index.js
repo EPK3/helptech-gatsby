@@ -1,14 +1,16 @@
 import * as React from "react"
-import Button from "../components/Button"
-import { ButtonFunction } from "../DataImports"
+import HomeHero from "../components/HomeHero"
+import Header from "../components/Header"
+import { HeaderFunction, HomeHeroFunction } from "../DataImports"
 
-const IndexPage = () => {
+const Home = () => {
 
   return (
     <div>
-      <Button {...ButtonFunction()} />
+      <Header {...HeaderFunction()} />
+      <HomeHero {...HomeHeroFunction()} />
     </div>
   )
 }
 
-export default IndexPage
+export default Home
