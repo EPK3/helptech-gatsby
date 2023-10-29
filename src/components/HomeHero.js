@@ -30,14 +30,14 @@ const HomeHero = ({ bgImage, bgImageMobile, title, subtitle, buttonProps, titleC
           : { backgroundImage: `url(${bgImageMobile})` }
       }
       >
-      <div className='w-full px-[2.5rem] sm:px-[2rem] md:px-[1.3rem] xxxl:pt-[20.42rem] xxxl:pl-[23.75rem] xxl:pt-[15.31rem] xxl:pl-[17.81rem] xl:pt-[11.48rem] xl:pl-[13.36rem] lg:pt-[8.17rem] lg:pl-[9.5rem] md:pt-[31.59rem] sm:pt-[22.49rem] pt-[14.62rem]'>
+      <div className='w-full px-[2.5rem] sm:px-[2rem] md:px-[1.3rem] xxxl:pt-[20.42rem] xxxl:pl-[23.75rem] xxl:pt-[15.31rem] xxl:pl-[17.81rem] xl:pt-[11.48rem] xl:pl-[13.36rem] lg:pt-[8.17rem] lg:pl-[9.5rem] md:pt-[32rem] sm:pt-[23rem] pt-[15rem]'>
         <p 
         className={`${titleColor} font-heading font-bold leading-[112.2%] xxxl:w-[63.83331rem] xxxl:text-[6.66669rem] xxl:w-[47.875rem] xxl:text-[5rem] xl:w-[35.90625rem] xl:text-[3.75rem] lg:w-[25.53331rem] lg:text-[2.66669rem] w-full md:text-[6.75rem] sm:text-[4.8rem] text-[3.125rem]`}
         >
           {title}
         </p>
         <h1 
-        className={`${titleColor} mt-5 font-body font-light lg:leading-[133.333%] xxxl:w-[53rem] xxxl:text-[2.5rem] xxl:w-[39.75rem] xxl:text-[1.875rem] xl:w-[29.8125rem] xl:text-[1.40625rem] lg:w-[21.2rem] lg:text-base w-full leading-[135.714%] md:text-[3.78rem] sm:text-[2.688rem] text-[1.75rem]`}
+        className={`${titleColor} mt-4 md:mt-8 lg:mt-5 font-body font-light lg:leading-[133.333%] xxxl:w-[53rem] xxxl:text-[2.5rem] xxl:w-[39.75rem] xxl:text-[1.875rem] xl:w-[29.8125rem] xl:text-[1.40625rem] lg:w-[21.2rem] lg:text-base w-full leading-[135.714%] md:text-[3.78rem] sm:text-[2.688rem] text-[1.75rem]`}
         >
           {subtitle}
         </h1>

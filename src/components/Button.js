@@ -7,7 +7,7 @@ const Button = ({ isLink, bgColor, textColor, fontSize, fontWeight, label, ...pr
     const Wrapper = isLink ? Link : Div
   return (
     <Wrapper {...props} className={`${bgColor} ${textColor} flex justify-center w-full cursor-pointer`}>
-        <p className={`xxl:py-6 py-4 ${fontSize} ${fontWeight} capitalize font-body m-auto`}>{label}</p>
+        <p className={`xxl:py-6 xl:py-4 lg:py-2 py-6 ${fontSize} ${fontWeight} capitalize font-body m-auto`}>{label}</p>
     </Wrapper>
   )
 }

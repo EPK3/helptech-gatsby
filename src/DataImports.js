@@ -1,6 +1,7 @@
 import HomeHeroDesktop from './images/HomeHeroDesktop.png'
 import HomeHeroMobile from './images/HomeHeroMobile.png'
 import logoImg from './images/logo.png'
+import hamburger from './images/hamburger.png'
 
 export function ButtonFunction() {
     return {
@@ -67,7 +68,7 @@ export function HeaderFunction() {
             isLink: true, 
             bgColor: 'bg-blue', 
             textColor: 'text-white',
-            fontSize: 'text-[0.84375rem] xxl:text-[1.125rem] xxxl:text-[1.5rem] !py-[.8rem] px-16', 
+            fontSize: 'lg:text-[0.6rem] xl:text-[.83rem] xxl:text-[1.125rem] xxxl:text-[1.5rem] md:text-[2.43rem] sm:text-[1.728rem] text-[1.125rem] lg:!py-[.5rem] xl:!py-[.8rem] xxl:px-12 xl:px-10 lg:px-5 !py-[.8rem]', 
             fontWeight: 'font-bold', 
             label: 'Request Service',
             href: `tel:test`,
@@ -76,12 +77,14 @@ export function HeaderFunction() {
             isLink: true, 
             bgColor: 'bg-orange', 
             textColor: 'text-white',
-            fontSize: 'text-[0.84375rem] xxl:text-[1.125rem] xxxl:text-[1.5rem] !py-[.8rem] px-16', 
+            fontSize: 'lg:text-[0.6rem] xl:text-[.83rem] xxl:text-[1.125rem] xxxl:text-[1.5rem] md:text-[2.43rem] sm:text-[1.728rem] text-[1.125rem] lg:!py-[.5rem] xl:!py-[.8rem] xxl:px-12 xl:px-10 lg:px-5 !py-[.8rem]', 
             fontWeight: 'font-bold', 
             label: 'Call Us Now',
             href: `tel:test`,
         }, 
         textColor: 'text-blue', 
         borderColor: 'border-orange',
+        icon: hamburger,
+        menuLabel: 'menu',
     }
 }
